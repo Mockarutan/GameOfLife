@@ -2624,7 +2624,7 @@ MonoBehaviour:
   StartPercentageAlive: 0.2
   StartRandomized: 1
   StartSpeed: 10
-  SimulationSpeedRange: {x: 1, y: 50}
+  SimulationSpeedRange: {x: 1, y: 100}
   XSizeInput: {fileID: 3550859912939421846}
   YSizeInput: {fileID: 1002188514}
   PercentageAlive: {fileID: 413173465}
