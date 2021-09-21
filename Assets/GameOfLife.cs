@@ -362,7 +362,7 @@ class GridControlPanelSystem : SystemBase
                 {
                     var index = (x * input.Size.x) + y;
                     var alive = 0f;
-                    if (random.NextFloat() < input.PercentageAlive)
+                    if (input.Randomize && random.NextFloat() < input.PercentageAlive)
                         alive = 1f;
 
                     var cellData = new CellData { Value = new float3(x, y, alive) };
